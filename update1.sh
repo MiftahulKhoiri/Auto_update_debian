@@ -18,9 +18,7 @@ sleep 5
 clear 
 echo "... mencadang kan data ..."
 chmod  +x update.sh 
-mkdir /data/data/com.termux/files/home/update
-echo "##### meng copi perintah ####"
-cp update.sh /data/data/com.termux/files/home/update
+cp update.sh /root
 sleep 5
 
 clear 
